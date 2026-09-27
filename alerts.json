@@ -1,0 +1,164 @@
+[
+    {
+        "alert_id": "ALERT_1790424129365",
+        "type": "LOW_STOCK",
+        "message": "water_bottle stock is low",
+        "severity": "MEDIUM",
+        "source": "INVENTORY",
+        "data": {
+            "product": "water_bottle",
+            "quantity": 2
+        },
+        "timestamp": 1790424129.3650475
+    },
+    {
+        "alert_id": "ALERT_1790424129365",
+        "type": "OUT_OF_STOCK",
+        "message": "jinthaa_juice is out of stock",
+        "severity": "HIGH",
+        "source": "INVENTORY",
+        "data": {
+            "product": "jinthaa_juice"
+        },
+        "timestamp": 1790424129.3650546
+    },
+    {
+        "alert_id": "ALERT_1790424129365",
+        "type": "MISPLACED_PRODUCT",
+        "message": "dhal detected in wrong shelf",
+        "severity": "MEDIUM",
+        "source": "PLANOGRAM",
+        "data": {
+            "product": "dhal",
+            "expected_shelf": "Shelf 4",
+            "detected_shelf": "Shelf 2"
+        },
+        "timestamp": 1790424129.3650584
+    },
+    {
+        "alert_id": "ALERT_1790424129365",
+        "type": "QUEUE_CONGESTION",
+        "message": "Queue congestion detected",
+        "severity": "HIGH",
+        "source": "QUEUE",
+        "data": {
+            "queue_count": 8,
+            "waiting_time_minutes": 12.5
+        },
+        "timestamp": 1790424129.3650613
+    },
+    {
+        "alert_id": "ALERT_1790424129365",
+        "type": "DEPLETION_WARNING",
+        "message": "lifebuoy may become empty soon",
+        "severity": "MEDIUM",
+        "source": "STOCK_PREDICTION",
+        "data": {
+            "product": "lifebuoy",
+            "hours_remaining": 1.8
+        },
+        "timestamp": 1790424129.3650641
+    },
+    {
+        "alert_id": "ALERT_1790424129365",
+        "type": "ANOMALY",
+        "message": "Unusual operational pattern detected",
+        "severity": "MEDIUM",
+        "source": "ANOMALY_DETECTION",
+        "data": {
+            "score": -0.21,
+            "features": {
+                "people_count": 18,
+                "queue_count": 9,
+                "stock_change": 6,
+                "dwell_time": 42
+            }
+        },
+        "timestamp": 1790424129.3650684
+    },
+    {
+        "alert_id": "ALERT_1790424129365",
+        "type": "REFILL_TASK",
+        "message": "Refill required for water_bottle",
+        "severity": "HIGH",
+        "source": "STAFF_ASSIGNMENT",
+        "data": {
+            "task_id": "REFILL_SHELF_1",
+            "product": "water_bottle",
+            "shelf": "Shelf 1"
+        },
+        "timestamp": 1790424129.3650718
+    },
+    {
+        "id": 8,
+        "timestamp": "2026-09-26T22:27:17.906367",
+        "type": "LOW_STOCK",
+        "message": "water_bottle stock is low.",
+        "priority": "HIGH",
+        "source": "decision_engine",
+        "status": "NEW"
+    },
+    {
+        "id": 9,
+        "timestamp": "2026-09-26T22:27:17.919528",
+        "type": "DEPLETION_WARNING",
+        "message": "water_bottle may be depleted in approximately 2.40 hours.",
+        "priority": "MEDIUM",
+        "source": "decision_engine",
+        "status": "NEW"
+    },
+    {
+        "id": 10,
+        "timestamp": "2026-09-26T22:27:17.930201",
+        "type": "QUEUE_CONGESTION",
+        "message": "Queue congestion detected. People in queue: 7",
+        "priority": "HIGH",
+        "source": "decision_engine",
+        "status": "NEW"
+    },
+    {
+        "id": 11,
+        "timestamp": "2026-09-26T22:27:17.942761",
+        "type": "MISPLACED_PRODUCT",
+        "message": "Possible misplaced product detected near water_bottle shelf.",
+        "priority": "MEDIUM",
+        "source": "decision_engine",
+        "status": "NEW"
+    },
+    {
+        "id": 12,
+        "timestamp": "2026-09-26T22:30:38.170669",
+        "type": "LOW_STOCK",
+        "message": "water_bottle stock is low.",
+        "priority": "HIGH",
+        "source": "decision_engine",
+        "status": "NEW"
+    },
+    {
+        "id": 13,
+        "timestamp": "2026-09-26T22:30:38.183063",
+        "type": "DEPLETION_WARNING",
+        "message": "water_bottle may be depleted in approximately 2.40 hours.",
+        "priority": "MEDIUM",
+        "source": "decision_engine",
+        "status": "NEW"
+    },
+    {
+        "id": 14,
+        "timestamp": "2026-09-26T22:30:38.196598",
+        "type": "QUEUE_CONGESTION",
+        "message": "Queue congestion detected. People in queue: 7",
+        "priority": "HIGH",
+        "source": "decision_engine",
+        "status": "NEW"
+    },
+    {
+        "id": 15,
+        "timestamp": "2026-09-26T22:30:38.214131",
+        "type": "MISPLACED_PRODUCT",
+        "message": "Possible misplaced product detected near water_bottle shelf.",
+        "priority": "MEDIUM",
+        "source": "decision_engine",
+        "status": "NEW"
+    }
+]

@@ -1,0 +1,10 @@
+path: C:/Users/Maha/Documents/SIH_AI/data/dataset
+train: images/train
+val: images/train
+
+names:
+  0: person
+  1: water_bottle
+  2: jinthaa_juice
+  3: lifebuoy
+  4: dhal

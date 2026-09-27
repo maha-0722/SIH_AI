@@ -1,0 +1,12 @@
+[
+    {
+        "alert_id": 1,
+        "timestamp": "2026-09-26 22:14:57",
+        "type": "POSSIBLE_UNPAID_ITEM",
+        "tag_id": "RFID999",
+        "product": "jinthaa_juice",
+        "payment_status": "UNRESOLVED",
+        "reader_location": "STORE_EXIT",
+        "action": "STAFF_VERIFICATION_REQUIRED"
+    }
+]

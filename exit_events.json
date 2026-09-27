@@ -1,0 +1,44 @@
+[
+    {
+        "event_id": "EXIT_1790424357154",
+        "tag_id": "RFID001",
+        "product": "water_bottle",
+        "outward_crossing": true,
+        "timestamp": 1790424357.154301
+    },
+    {
+        "event_id": "EXIT_1790424357191",
+        "tag_id": "RFID999",
+        "product": "lifebuoy",
+        "outward_crossing": true,
+        "timestamp": 1790424357.191627
+    },
+    {
+        "event_id": "EXIT_1790424357221",
+        "tag_id": "RFID002",
+        "product": "jinthaa_juice",
+        "outward_crossing": false,
+        "timestamp": 1790424357.221206
+    },
+    {
+        "event_id": "EXIT_1790424511002",
+        "tag_id": "RFID001",
+        "product": "water_bottle",
+        "outward_crossing": true,
+        "timestamp": 1790424511.0021796
+    },
+    {
+        "event_id": "EXIT_1790424511045",
+        "tag_id": "RFID999",
+        "product": "lifebuoy",
+        "outward_crossing": true,
+        "timestamp": 1790424511.045532
+    },
+    {
+        "event_id": "EXIT_1790424511092",
+        "tag_id": "RFID002",
+        "product": "jinthaa_juice",
+        "outward_crossing": false,
+        "timestamp": 1790424511.0927582
+    }
+]

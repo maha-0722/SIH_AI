@@ -1,0 +1,38 @@
+[
+    {
+        "tag_id": "RFID001",
+        "product": "water_bottle",
+        "quantity": 1,
+        "payment_status": "PAID",
+        "timestamp": 1790424357.1297455
+    },
+    {
+        "tag_id": "RFID002",
+        "product": "jinthaa_juice",
+        "quantity": 1,
+        "payment_status": "PAID",
+        "timestamp": 1790424357.1521041
+    },
+    {
+        "tag_id": "RFID001",
+        "product": "water_bottle",
+        "quantity": 1,
+        "payment_status": "PAID",
+        "timestamp": 1790424510.9479747
+    },
+    {
+        "tag_id": "RFID002",
+        "product": "jinthaa_juice",
+        "quantity": 1,
+        "payment_status": "PAID",
+        "timestamp": 1790424510.980806
+    },
+    {
+        "tag_id": "RFID001",
+        "product": "water_bottle",
+        "quantity": 1,
+        "transaction_id": "TXN1001",
+        "paid": true,
+        "timestamp": "2026-09-26 22:14:57"
+    }
+]

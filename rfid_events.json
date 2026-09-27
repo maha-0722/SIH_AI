@@ -1,0 +1,26 @@
+[
+    {
+        "event_id": 1,
+        "timestamp": "2026-09-26 22:14:57",
+        "tag_id": "RFID001",
+        "product": "water_bottle",
+        "reader_location": "STORE_EXIT",
+        "outward_crossing": true
+    },
+    {
+        "event_id": 2,
+        "timestamp": "2026-09-26 22:14:57",
+        "tag_id": "RFID999",
+        "product": "jinthaa_juice",
+        "reader_location": "STORE_EXIT",
+        "outward_crossing": true
+    },
+    {
+        "event_id": 3,
+        "timestamp": "2026-09-26 22:14:57",
+        "tag_id": "RFID888",
+        "product": "lifebuoy",
+        "reader_location": "STORE_EXIT",
+        "outward_crossing": false
+    }
+]

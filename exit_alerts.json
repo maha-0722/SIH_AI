@@ -1,0 +1,22 @@
+[
+    {
+        "alert_id": "SECURITY_1790424357195",
+        "type": "POSSIBLE_UNPAID_ITEM",
+        "severity": "HIGH",
+        "tag_id": "RFID999",
+        "product": "lifebuoy",
+        "message": "Possible unpaid item - staff verification required",
+        "event_time": 1790424357.191627,
+        "security_review_required": true
+    },
+    {
+        "alert_id": "SECURITY_1790424511073",
+        "type": "POSSIBLE_UNPAID_ITEM",
+        "severity": "HIGH",
+        "tag_id": "RFID999",
+        "product": "lifebuoy",
+        "message": "Possible unpaid item - staff verification required",
+        "event_time": 1790424511.045532,
+        "security_review_required": true
+    }
+]
